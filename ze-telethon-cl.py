@@ -119,27 +119,27 @@ async def start(event):
     sender = await event.get_sender()
     if sender.id == DEVELOPER_ID:
         buttons = [
-            [Button.inline('< 🔱 𝐙𝐄 🔱 >', 'ze')],
+            [Button.inline('S T A R', 'ze')],
             [Button.inline('∘ اضف رقم ∘', 'addnum'), Button.inline('∘ حذف رقم ∘', 'delnum')],
             [Button.inline('∘ عدد الحسابات ∘', 'numacc')],
             [Button.inline('∘ فحص الحسابات ∘', 'tstacc'), Button.inline('∘ فلود الانضمام ∘', 'tstflood')],
             [Button.inline('∘ فورمات ∘', 'format')],
-            [Button.inline('• اوامر اخرى 🔽 • ', 'list2')]
+            [Button.inline('• اوامر اخرى 🇱🇾 • ', 'list2')]
         ]
-        await event.respond("""**• مرحبا بك في بوت التجميع
-• الاصدار : V4.2
+        await event.respond("""**• بوت تجميع تابع لسورس ليبيا 🇱🇾
+• S T A R
 ➖➖➖➖➖➖➖➖➖➖➖➖**""", buttons=buttons)
 
 @bot.on(events.CallbackQuery(pattern='list1'))
 async def lista(event):
     if event.sender_id == DEVELOPER_ID:
         buttons = [
-            [Button.inline('< 🔱 𝐙𝐄 🔱 >', 'ze')],
+            [Button.inline('S T A R', 'ze')],
             [Button.inline('∘ اضف رقم ∘', 'addnum'), Button.inline('∘ حذف رقم ∘', 'delnum')],
             [Button.inline('∘ عدد الحسابات ∘', 'numacc')],
             [Button.inline('∘ فحص الحسابات ∘', 'tstacc'), Button.inline('∘ فلود الانضمام ∘', 'tstflood')],
             [Button.inline('∘ فورمات ∘', 'format')],
-            [Button.inline('• اوامر اخرى 🔽 • ', 'list2')]
+            [Button.inline('• اوامر اخرى 🇱🇾 • ', 'list2')]
         ]
         await event.edit("""**⋄ قائمة البوت الاساسية 
 ⋄ رقم القائمة : 𝟙 :**""", buttons=buttons)
@@ -162,9 +162,9 @@ async def handler(event):
 async def handler(event):
     data = event.data.decode('utf-8')
     if data == 'ze':
-        await bot.send_message(OWNER_ID, f"""**∘ بوت زد إي لتجميع النقاط واوامر اخرى 
+        await bot.send_message(OWNER_ID, f"""**∘ بوت S T A R لتجميع النقاط واوامر اخرى 
 
-∘ مطور ومبرمج البوت مودي الهيبه - @elhyba
+∘ مطور ومبرمج البوت S T A R - @GGQGG
 
 ∘ اصدار البوت = 4 Version شبه منقح**""")
 
@@ -258,7 +258,7 @@ async def listb(event):
         [Button.inline('⋆ حضر البوت ⋆', 'banbot'), Button.inline('⋆ فك حضر البوت ⋆', 'unbanbot')],
         [Button.inline('⋆ تجميع Keko Api ⋆', 'collectapiko'), Button.inline('⋆ ايقاف تجميع Api KO ⋆', 'spkoai')],
         [Button.inline('⋆ بوت دعمكم ⋆', 'dambot')],
-        [Button.inline('• اوامر اخرى 🔽 • ', 'list3')]
+        [Button.inline('• اوامر اخرى 🇱🇾 • ', 'list3')]
     ]
     await event.edit("""**⋄ قائمة التجميع الاساسية 
 ⋄ رقم القائمة : 𝟚 :**""", buttons=buttons)
@@ -630,7 +630,7 @@ async def start(event):
         [Button.inline('رشـــق قناة ⊕', 'aibo'), Button.inline('مغادرة قناة ⊖', 'ajbo')],
         [Button.inline('رشق مشاهدات ⟐', 'akbo')],
         
-         [Button.inline('༺ 🔱 𝐙𝐄 🔱 𝐁𝐎𝐓 ༻', 'button0')]
+         [Button.inline('༺ S T A R ༻', 'button0')]
         ]
         await bot.send_message(chat, '''**╭─╮ ┬┈┬ ╭┬╮ ┬┈┬ ╭─╮ ╭╮╭  
 ╰─╮ ╰┬╯ ┈│┈ ├─┤ │┈│ │││  
