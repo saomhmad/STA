@@ -13,12 +13,12 @@
     "env": {
         "API_ID": {
             "description": "ايبي ايدي",
-            "value": "",
+            "value": "28337893",
             "required": true
         },
         "API_HASH": {
             "description": "ايبي هاش",
-            "value": "",
+            "value": "8a69d449262224e7fceab84b2ff7f7c5",
             "required": true
         },
         "OWNER": {
